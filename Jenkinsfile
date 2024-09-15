@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                // Checkout the repository
-                git 'https://github.com/tayyabsattar042/Simple-Nodejs-application.git'
+                // Ensure 'main' is the branch used, not 'master'
+                git branch: 'main', url: 'https://github.com/tayyabsattar042/Simple-Nodejs-application.git'
             }
         }
         
