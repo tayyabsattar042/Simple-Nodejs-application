@@ -1,4 +1,4 @@
-# Simple-Nodejs-application using jenkins
+# Simple-Nodejs-application using Jenkins CI/CD PipleLine
 #1. Create a New Jenkins Pipeline Job:
 ![pic 1](https://github.com/user-attachments/assets/dec55c3e-182f-4f6c-8d40-d39b70f3bfe0)
 
